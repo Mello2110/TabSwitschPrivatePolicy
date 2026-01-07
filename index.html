@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - TabControl Extension</title>
+    <style>
+        :root {
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --accent-color: #ff8c00; /* Orange/Copper accent matching description */
+            --card-bg: #2d2d2d;
+            --code-bg: #000000;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        h1, h2, h3 {
+            color: #ffffff;
+            margin-top: 1.5em;
+        }
+
+        h1 {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        code {
+            background-color: var(--code-bg);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: Consolas, Monaco, "Andale Mono", monospace;
+            color: var(--accent-color);
+        }
+
+        .highlight-box {
+            background-color: var(--code-bg);
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid var(--accent-color);
+            margin: 20px 0;
+        }
+
+        .highlight-box ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        .highlight-box li {
+            margin-bottom: 5px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #888;
+            border-top: 1px solid #444;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            body {
+                padding: 0;
+            }
+            .container {
+                border-radius: 0;
+                min-height: 100vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p><strong>Last Updated: January 7, 2026</strong></p>
+        </header>
+
+        <section>
+            <p><strong>TabControl collects no personal data, tracking information, or user content.</strong></p>
+        </section>
+
+        <section>
+            <h2>Permissions Used</h2>
+            <ul>
+                <li><code>tabs</code>: Access to tabs API solely to query and switch between open tabs via hotkeys</li>
+                <li><code>storage</code>: Store user hotkey preferences locally on the device</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>What TabControl Does</h2>
+            <ul>
+                <li>Enables fullscreen tab switching via configurable hotkeys (e.g., Ctrl+Shift+Left/Right)</li>
+                <li>Shows temporary hotbar overlay (arrows) at screen bottom during navigation</li>
+                <li>Works in fullscreen/F11 mode across Chrome and Opera browsers</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>No Data Collection</h2>
+            <div class="highlight-box">
+                <ul>
+                    <li>✅ No network requests to external servers</li>
+                    <li>✅ No user browsing history access</li>
+                    <li>✅ No personal information stored beyond local hotkey settings</li>
+                    <li>✅ No analytics, tracking pixels, or third-party services</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Local Storage</h2>
+            <p>User-configured hotkeys stored in browser localStorage only. Data stays on device, cleared if extension uninstalled. No sync to servers.</p>
+        </section>
+
+        <section>
+            <h2>Chrome Web Store Privacy Label</h2>
+            <p><strong>"No data collected"</strong></p>
+        </section>
+
+        <div class="footer">
+            <p>TabControl Extension &copy; 2026</p>
+        </div>
+    </div>
+</body>
+</html>
