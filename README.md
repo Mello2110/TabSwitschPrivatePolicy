@@ -2,7 +2,7 @@
 
 Privacy Policy page for the TabControl Chrome/Opera Extension.
 
-**Live URL:** https://[YOUR_GITHUB_USERNAME].github.io/tabcontrol-privacy-policy/
+**Live URL:** https://mello2110.github.io/tabcontrol-privacy-policy/
 
 ## Deployment Instructions
 
