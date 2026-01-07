@@ -7,14 +7,12 @@
     <title>Privacy Policy - TabControl Extension</title>
     <style>
         :root {
-            /* Colors extracted/inspired by the logo */
             --bg-color: #0b1015;
-            /* Dark background similar to logo bg */
             --text-color: #e0e0e0;
-            --primary-accent: #00ffcc;
-            /* Neon Cyan */
-            --secondary-accent: #bd00ff;
-            /* Neon Purple */
+            --primary-accent: #926078;
+            /* User requested: Muted Purple/Mauve for text */
+            --secondary-accent: #19555D;
+            /* User requested: Dark Teal for borders */
             --card-bg: #151b22;
             --code-bg: #000000;
         }
@@ -34,12 +32,10 @@
 
         .container {
             max-width: 700px;
-            /* Slightly narrower for a cleaner look */
             width: 100%;
             background-color: var(--card-bg);
             padding: 50px;
             border-radius: 16px;
-            /* softer rounded corners */
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             border: 1px solid #2a2a2a;
             position: relative;
@@ -47,7 +43,7 @@
         }
 
         .container::before {
-            /* Subtle top border gradient */
+            /* Gradient using the new accent colors */
             content: "";
             position: absolute;
             top: 0;
@@ -66,8 +62,8 @@
             width: 120px;
             height: auto;
             border-radius: 50%;
-            /* Optional: if the logo is circular */
-            box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+            /* Updated shadow to match primary accent */
+            box-shadow: 0 0 20px rgba(146, 96, 120, 0.3);
         }
 
         h1,
@@ -110,18 +106,20 @@
         }
 
         code {
-            background-color: rgba(0, 255, 204, 0.1);
+            /* Background matched to primary accent #926078 */
+            background-color: rgba(146, 96, 120, 0.15);
             padding: 2px 6px;
             border-radius: 4px;
             font-family: Consolas, Monaco, "Andale Mono", monospace;
             color: var(--primary-accent);
-            border: 1px solid rgba(0, 255, 204, 0.2);
+            border: 1px solid rgba(146, 96, 120, 0.3);
         }
 
         .highlight-box {
             background-color: rgba(255, 255, 255, 0.03);
             padding: 20px;
             border-radius: 12px;
+            /* Border uses secondary accent as requested */
             border-left: 4px solid var(--secondary-accent);
             margin: 25px 0;
         }
