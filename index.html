@@ -209,7 +209,7 @@
         </div>
 
         <h1>Privacy Policy</h1>
-        <span class="last-updated">Last Updated: January 7, 2026</span>
+        <span class="last-updated">Last Updated: January 11, 2026 (v1.2.1)</span>
 
         <section>
             <p style="text-align: center; font-size: 1.1em;"><strong>TabControl collects no personal data, tracking
@@ -218,8 +218,10 @@
 
         <section>
             <h2>Permissions Used</h2>
+            <p><strong>Note for v1.2.1+:</strong> The extension no longer requests the <code>tabs</code> permission. It
+                performs tab switching using basic API capabilities (<code>activeTab</code>) that do not require access
+                to your browsing history, tab titles, or URLs.</p>
             <ul>
-                <li><code>tabs</code>: Access to tabs API solely to query and switch between open tabs via hotkeys</li>
                 <li><code>storage</code>: Store user hotkey preferences locally on the device</li>
             </ul>
         </section>
