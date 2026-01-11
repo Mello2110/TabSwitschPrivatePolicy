@@ -2,7 +2,7 @@
 
 Privacy Policy page for the TabControl Chrome/Opera Extension.
 
-**Live URL:** https://mello2110.github.io/TabSwitschPrivatePolicy/
+**Live URL:** https://mello2110.github.io/TabSwitchPrivatePolicy/
 
 ## Deployment Instructions
 
