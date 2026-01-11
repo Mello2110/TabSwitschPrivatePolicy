@@ -2,7 +2,7 @@
 
 Privacy Policy page for the TabControl Chrome/Opera Extension.
 
-**Live URL:** https://mello2110.github.io/TabControlPrivatePolicy/
+**Live URL:** https://mello2110.github.io/TabControl-Privacy-Policy/
 
 ## Deployment Instructions
 
@@ -38,4 +38,12 @@ git push -u origin main
 Wait about 60 seconds, and your site will be live at the URL shown in the settings.
 
 ### 4. Chrome Web Store / Opera Sync
-Copy the generated URL (e.g., `https://username.github.io/tabcontrol-privacy-policy/`) and paste it into the **Privacy Policy URL** field in your extension's store listing.
+Copy the generated URL (e.g., `https://username.github.io/TabControl-Privacy-Policy/`) and paste it into the **Privacy Policy URL** field in your extension's store listing.
+
+## Licensing
+
+**TabControl** is dual-licensed:
+
+*   **[Apache License 2.0](LICENSE)**: Free for personal use, education, and open-source contribution.
+*   **[Commercial License](COMMERCIAL_LICENSE.md)**: Required for commercial use, proprietary integration, or revenue-generating activities > €10k/year.
+
